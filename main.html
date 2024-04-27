@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woolywonders</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+      
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <img src="logo.png" class="logo" alt="">
+        </nav>
+
+        <div class="main-content">
+
+            <div class="image-pista">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img3.jpg" alt=""></div>    
+                    </div> 
+                </div>
+            </div>
+            <div class="main-text">
+                <h1>WoolyWonders</h1>
+                <p>Welcome to our cosy corner of woollen wonders where tradition meets style!</p>
+                <button>Know More</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="natural-dyes.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Natural Dyes</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="eco-tag.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Eco-Friendly Pricing</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="guide.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Style Guide</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="trendy.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Trendy</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <div class="prod">
+                <div class="imge">
+                    <img src="img4.jpg" alt="">
+                </div>
+                
+            </div>
+            <div class="prod">
+                <div class="imge">
+                    <img src="img5.jpg" alt="">
+                </div>
+            </div>
+            <div class="prod">
+                <div class="imge">
+                    <img src="img6.jpg" alt="">
+                </div>
+            </div>
+            <div class="prod">
+                <div class="imge">
+                    <img src="img7.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 70,
+          loop: true,
+        });
+      </script>
+</body>
+
+</html>
